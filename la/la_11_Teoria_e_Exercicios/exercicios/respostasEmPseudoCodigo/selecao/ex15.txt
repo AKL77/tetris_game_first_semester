@@ -1,0 +1,18 @@
+/* Ex14 */
+   a, b, c: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   escrever "Digite o valor de c: "
+   ler c
+   se a + b > c e b + c > a e a + c > b
+      se a = b e b = c
+         escrever "Eh um triangulo equilatero"
+      senão 
+         se a != c e a != b e b != c
+            escrever "Eh um triangulo escaleno"
+         senão 
+            escrever "Eh um triangulo isosceles"
+   senão 
+      escrever "Nao pode ser um triangulo"

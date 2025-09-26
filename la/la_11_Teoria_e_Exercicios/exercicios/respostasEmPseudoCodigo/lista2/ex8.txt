@@ -1,0 +1,16 @@
+/* Algoritmo Ex8 */
+h1, m1, s1, h2, m2, s2, totalSegundos: inteiro
+escrever "Digite o valor de h1: "
+ler h1
+escrever "Digite o valor de m1: "
+ler m1
+escrever "Digite o valor de s1: "
+ler s1
+escrever "Digite o valor de h2: "
+ler h2
+escrever "Digite o valor de m2: "
+ler m2
+escrever "Digite o valor de s2: "
+ler s2
+totalSegundos := (h2 * 3600 + m2 * 60 + s2) - (h1 * 3600 + m1 * 60 + s1)
+escrever "O valor de totalSegundos eh " + totalSegundos

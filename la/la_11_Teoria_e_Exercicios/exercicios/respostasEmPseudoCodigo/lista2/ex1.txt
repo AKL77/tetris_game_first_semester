@@ -1,0 +1,13 @@
+/* Algoritmo Ex1 */
+a, b, c: real
+escrever "Digite o valor de a: "
+ler a
+escrever "Digite o valor de b: "
+ler b
+escrever "Digite o valor de c: "
+ler c
+semi: real
+semi := (a + b + c) / 2.0
+area: real
+area := (semi * (semi - a) * (semi - b) * (semi - c)) // 2
+escrever "O valor de area eh " + area

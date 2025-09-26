@@ -1,0 +1,41 @@
+/* Algoritmo Ex8 */
+escrever "Perimetro do Triangulo"
+a, b, c: inteiro
+escrever "Digite o valor de a: "
+ler a
+escrever "Digite o valor de b: "
+ler b
+escrever "Digite o valor de c: "
+ler c
+pTriangulo: inteiro
+pTriangulo := a + b + c
+escrever "O valor de pTriangulo eh " + pTriangulo
+escrever "Perimetro do Triangulo Retangulo"
+escrever "Digite o valor de a: "
+ler a
+escrever "Digite o valor de b: "
+ler b
+pTR: real
+pTR := (a ** 2 + b ** 2) ** 2
+escrever "O valor de pTR eh " + pTR
+escrever "Perimetro do Quadrado"
+lado, pLado: inteiro
+escrever "Digite o valor de lado: "
+ler lado
+pLado := 4 * lado
+escrever "O valor de pLado eh " + pLado
+escrever "Perimetro do Retangulo"
+base, altura, pRetangulo: inteiro
+escrever "Digite o valor de base: "
+ler base
+escrever "Digite o valor de altura: "
+ler altura
+pRetangulo := 2 * base + 2 * altura
+escrever "O valor de pRetangulo eh " + pRetangulo
+escrever "Perimetro do Circulo"
+raio: inteiro
+escrever "Digite o valor de raio: "
+ler raio
+pCirculo: real
+pCirculo := 2 * 3.14159 * raio
+escrever "O valor de pCirculo eh " + pCirculo

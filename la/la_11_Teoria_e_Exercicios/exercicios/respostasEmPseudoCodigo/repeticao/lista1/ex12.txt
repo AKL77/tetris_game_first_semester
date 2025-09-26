@@ -1,0 +1,18 @@
+   valor, menorImpar: inteiro
+   imparLido: booleano
+   imparLido := F
+   faça
+      escrever "Digite um valor (negativo para encerrar):"
+      ler valor
+      se valor >= 0 e valor % 2 = 1
+         se imparLido = F
+            menorImpar := valor
+            imparLido := V
+         senão
+            se valor < menorImpar
+               menorImpar := valor
+   enquanto valor >= 0
+   se imparLido = V
+      escrever "O menor impar lido eh: " + menorImpar
+   senão
+      escrever "Nao foram lidos numeros impares"

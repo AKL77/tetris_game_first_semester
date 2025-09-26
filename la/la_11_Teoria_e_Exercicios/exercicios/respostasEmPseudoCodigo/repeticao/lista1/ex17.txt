@@ -1,0 +1,21 @@
+   valor, fibs, f1, f2, fib: inteiro
+   fibs := 0
+   faça
+      escrever "Digite um valor (negativo para encerrar):"
+      ler valor
+      ehFib: booleano
+      ehFib = F
+      se valor >= 0
+         f1 := 0
+         f2 := 1
+         faça
+            fib := f1 + f2
+            se valor = 0 ou valor = fib
+               ehFib := V
+            f1 := f2
+            f2 := fib
+         enquanto fib < valor
+         se ehFib
+            fibs := fibs + 1
+   enquanto valor >= 0
+   escrever "O numero de valores lidos que sao da serie eh " + fibs

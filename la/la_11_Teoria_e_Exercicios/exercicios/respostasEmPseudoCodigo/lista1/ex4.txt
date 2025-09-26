@@ -1,0 +1,14 @@
+/* Ex4 */
+   a, b, soma, subtracao, multiplicacao, divisao: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   soma := a + b;
+   subtracao := a - b;
+   multiplicacao := a * b;
+   divisao := a / b;
+   escrever "O valor de soma eh " + soma
+   escrever "O valor de subtracao eh " + subtracao
+   escrever "O valor de multiplicacao eh " + multiplicacao
+   escrever "O valor de divisao eh " + divisao

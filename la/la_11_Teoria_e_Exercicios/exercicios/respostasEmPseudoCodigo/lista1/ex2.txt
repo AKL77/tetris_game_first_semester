@@ -1,0 +1,5 @@
+/* Algoritmo Ex2 */
+a: real
+escrever "Digite o valor de a: "
+ler a
+escrever "O valor de a eh " + a

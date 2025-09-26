@@ -1,0 +1,13 @@
+/* Ex12 */
+   a, b: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   se a = b
+      escrever "a e b sao iguais"
+   senão 
+      se a > b
+         escrever "a eh maior que b"
+      senão 
+         escrever "b eh maior que a"

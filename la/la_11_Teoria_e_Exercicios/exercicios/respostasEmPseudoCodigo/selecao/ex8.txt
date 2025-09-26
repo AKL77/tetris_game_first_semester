@@ -1,0 +1,8 @@
+/* Ex8 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i % 3 = 0
+      escrever "I eh multiplo de 3: " + i
+   senão 
+      escrever "I nao eh multiplo de 3: " + i

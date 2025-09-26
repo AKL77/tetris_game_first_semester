@@ -1,0 +1,14 @@
+   numero, aux: inteiro
+   ehPrimo: booleano
+   ehPrimo := V
+   escrever "Informe um numero:"
+   ler numero
+   aux := numero - 1
+   enquanto aux > 1
+      se numero % aux = 0
+         ehPrimo := F
+         aux = aux - 1
+   se ehPrimo
+      escrever "O numero " + numero + " eh primo"
+   senão
+      escrever "O numero " + numero + " não eh primo"

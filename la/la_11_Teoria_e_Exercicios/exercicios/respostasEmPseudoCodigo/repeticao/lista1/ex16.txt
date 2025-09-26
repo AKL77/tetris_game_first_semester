@@ -1,0 +1,37 @@
+   i, j, nota, faltas, aprovados, reprovados, a, b, c: inteiro
+   aprovados := 0
+   reprovados := 0
+   a := 0
+   b := 0
+   c := 0
+   media: real
+   para i := 1 a 90
+      media := 0.0
+      faltas := 0
+      para j := 1 a 3
+         escrever "Informe a " + j + "a nota: "
+         ler nota
+         media := media + nota
+      escrever "Informe o numero de faltas: "
+      ler faltas      
+      media := media / 3;
+      escrever "A media do " + i + "o aluno eh " + media
+      se (media < 5.0 ou faltas > 20 ou (faltas > 10 ou media < 7.0))
+         reprovados := reprovados + 1
+      senão
+         aprovados := aprovados + 1
+         se media >= 9.0
+            a := a + 1
+         senão 
+            se media >= 7.5
+               b := b + 1
+            senão
+               c := c + 1
+   escrever "Percentual de aprovados: " + (aprovados / 90.0 * 100));
+   se a >= b e a >= c
+      escrever "O conceito maior eh A"
+   senão
+      se b >=a e b >= c
+         escrever "O conceito maior eh B"
+      senão
+         escrever "O conceito maior eh C"

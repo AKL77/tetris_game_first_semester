@@ -1,0 +1,16 @@
+   i, j, nota, qtdAlunos: inteiro
+   media: real
+   escrever "Digite a quantidade de alunos:"
+   ler qtdAlunos
+   para i := 1 a qtdAlunos
+      media := 0.0
+      para j := 1 a 3
+         escrever "Informe a "+ j + "a nota: "
+         ler nota       
+         media = media + 1.0 / nota
+      media := 3.0 / media
+      escrever "A media do " + i + "o aluno eh " + media
+      se media >= 6.0 
+         escrever "Aprovado"
+      senão
+         escrever "Reprovado"

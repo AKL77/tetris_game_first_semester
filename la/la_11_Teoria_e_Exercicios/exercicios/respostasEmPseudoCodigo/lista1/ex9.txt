@@ -1,0 +1,11 @@
+/* Algoritmo Ex9 */
+a, b, c: inteiro
+escrever "Digite o valor de a: "
+ler a
+escrever "Digite o valor de b: "
+ler b
+escrever "Digite o valor de c: "
+ler c
+media: real
+media := (a + b + c) / 3
+escrever "O valor de media eh " + media

@@ -1,0 +1,14 @@
+    rodada, valor, numerador, faltaCalcular: inteiro
+    escrever "Digite quantos numeros calcular:"
+    ler faltaCalcular
+    rodada := 1
+    enquanto faltaCalcular != 0
+       numerador := 1
+       valor := 1
+       enquanto valor < rodada e faltaCalcular !=0
+          se faltaCalcular = 1
+             escrever "O valor solicitado eh " + numerador + "/" + (rodada - numerador)
+          faltaCalcular := faltaCalcular - 1
+          numerador := numerador + 1
+          valor := valor + 1
+       rodada := rodada + 1

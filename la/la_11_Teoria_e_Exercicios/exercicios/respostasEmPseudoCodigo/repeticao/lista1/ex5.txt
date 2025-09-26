@@ -1,0 +1,7 @@
+   i: inteiro
+   para i := 1 a 30
+      escrever "Digite a nota do " + i "o aluno: "
+      ler nota 
+      se i = 1 ou nota > maior
+         maior := nota
+   escrever "A maior nota eh " + maior

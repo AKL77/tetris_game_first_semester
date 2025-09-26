@@ -1,0 +1,17 @@
+   numero, aux, i: inteiro;
+   escrever "Informe um numero:"
+   ler numero
+   i = 2
+   enquanto i <= numero
+      ehPrimo: booleano
+      ehPrimo := V
+      aux := i - 1
+      enquanto aux > 1
+         se i % aux = 0
+            ehPrimo := F
+            aux := aux - 1
+      se ehPrimo e numero % i = 0
+         escrever i + " "
+         numero := numero / i
+      senão
+         i := i + 1

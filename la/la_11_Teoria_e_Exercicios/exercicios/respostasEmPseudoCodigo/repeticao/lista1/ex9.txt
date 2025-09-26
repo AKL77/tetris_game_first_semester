@@ -1,0 +1,7 @@
+   i, numero, fatorial: inteiro
+   fatorial := 1
+   escrever "Informe um numero:"
+   ler numero
+   para i := 1 a numero
+      fatorial = fatorial * i;
+   escrever "O fatorial de " + numero + " eh: " + fatorial

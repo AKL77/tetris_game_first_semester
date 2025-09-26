@@ -1,0 +1,8 @@
+/* Algoritmo Ex5 */
+numero, potencia, resultado: inteiro
+escrever "Digite o valor de numero: "
+ler numero
+escrever "Digite o valor de potencia: "
+ler potencia
+resultado := numero ** potencia
+escrever "O valor de resultado eh " + resultado

@@ -1,0 +1,11 @@
+/* Ex11 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i > 999 ou i < 100
+      escrever "O numero informado nao tem algarismo da centena"
+   senão 
+      se i / 100 % 2 = 0
+         escrever "O algarismo das centenas eh par"
+      senão 
+         escrever "O algarismo das centenas eh impar"

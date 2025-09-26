@@ -1,0 +1,52 @@
+/* Algoritmo Ex7 */
+escrever "Area do Triangulo Retangulo"
+base, altura: inteiro
+escrever "Digite o valor de base: "
+ler base
+escrever "Digite o valor de altura: "
+ler altura
+areaTR: inteiro
+areaTR := (base * altura) / 2
+escrever "O valor de areaTR eh " + areaTR
+escrever "Area do Quadrado"
+lado: inteiro
+escrever "Digite o valor de lado: "
+ler lado
+areaQ: inteiro
+areaQ := lado * lado
+escrever "O valor de areaQ eh " + areaQ
+escrever "Area do Retangulo"
+escrever "Digite o valor de base: "
+ler base
+escrever "Digite o valor de altura: "
+ler altura
+areaR: inteiro
+areaR := base * altura
+escrever "O valor de areaR eh " + areaR
+escrever "Area do Losango"
+dMaior, dMenor: inteiro
+escrever "Digite o valor de dMaior: "
+ler dMaior
+escrever "Digite o valor de dMenor: "
+ler dMenor
+areaL: inteiro
+areaL := (dMaior * dMenor) / 2
+escrever "O valor de areaL eh " + areaL
+escrever "Area do Trapezio"
+bMaior, bMenor: inteiro
+escrever "Digite o valor de bMaior: "
+ler bMaior
+escrever "Digite o valor de bMenor: "
+ler bMenor
+escrever "Digite o valor de altura: "
+ler altura
+areaTrap: inteiro
+areaTrap := ((bMaior + bMenor) / 2) * altura
+escrever "O valor de areaTrap eh " + areaTrap
+escrever "Area do Circulo"
+raio: inteiro
+escrever "Digite o valor de raio: "
+ler raio
+areaC: real
+areaC := 3.14159 * raio ** 2
+escrever "O valor de areaC eh " + areaC

@@ -1,0 +1,18 @@
+menor, somaDivisores, divisorAtual, numero, contNrPerfeitos: inteiro
+contNrPerfeitos := 0
+faça
+   escrever "Digite um numero: "
+   ler numero
+   somaDivisores := 1
+   divisorAtual := 2
+   faça 
+      se numero % divisorAtual = 0
+         somaDivisores := somaDivisores + divisorAtual
+      divisorAtual := divisorAtual + 1
+   enquanto divisorAtual <= numero / 2
+   se numero = somaDivisores
+      contNrPerfeitos := contNrPerfeitos + 1
+      if contNrPerfeitos = 1 ou numero < menor
+         menor := numero
+enquanto contNrPerfeitos < 10
+escrever "O menor eh " + menor

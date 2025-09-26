@@ -1,0 +1,20 @@
+   valor, positivos, negativos: inteiro
+   positivos := 0
+   negativos := 0
+   media: real
+   media := 0.0;
+   faça
+      escrever "Digite um valor (zero para encerrar):"
+      ler valor
+      se valor != 0
+         se valor > 0
+            media := media + valor
+            positivos := positivos + 1              
+         senão
+            negativos := negativos + 1
+   enquanto valor != 0
+   se positivos + negativos > 0
+      escrever "Media dos positivos lidos: + media / positivos
+      escrever "Numeros negativos lidos: " + negativos
+   senão
+      escrever "Nao foi lido numero algum"

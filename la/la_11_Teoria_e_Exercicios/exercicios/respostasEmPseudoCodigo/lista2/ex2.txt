@@ -1,0 +1,8 @@
+/* Ex2 */
+   a, volume, area: real
+   escrever "Digite o valor de a: "
+   ler a
+   area := 6 * a ** 2;
+   volume := a ** 3;
+   escrever "O valor de area eh " + area
+   escrever "O valor de volume eh " + volume

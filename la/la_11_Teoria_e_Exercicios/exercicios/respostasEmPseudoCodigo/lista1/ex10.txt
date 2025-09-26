@@ -1,0 +1,9 @@
+/* Algoritmo Ex10 */
+valor, percentual: real
+escrever "Digite o valor de valor: "
+ler valor
+escrever "Digite o valor de percentual: "
+ler percentual
+novoValor: real
+novoValor := valor * (percentual / 100 + 1)
+escrever "O valor de novoValor eh " + novoValor

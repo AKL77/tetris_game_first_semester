@@ -1,0 +1,8 @@
+/* Algoritmo Ex7 */
+n, fibN: inteiro
+s: real
+escrever "Digite o valor de n: "
+ler n
+s := (1 + 5 // 2) / 2
+fibN := s ** n / 5 // 2 + 0.5
+escrever "O valor de fibN eh " + fibN

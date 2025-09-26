@@ -1,0 +1,10 @@
+   i, numero, menor, contagem: inteiro
+   para i := 1 a 200
+      escrever "Digite um numero: "
+      ler numero
+      se i != 1 e numero = menor
+         contagem := contagem + 1
+      se i = 1 ou numero < menor
+         menor := numero
+         contagem := 1 
+   escrever "O numero de valores iguais ao menor valor eh " + contagem

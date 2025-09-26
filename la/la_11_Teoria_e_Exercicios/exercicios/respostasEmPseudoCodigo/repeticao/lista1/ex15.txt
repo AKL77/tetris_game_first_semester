@@ -1,0 +1,30 @@
+   i, numero, anterior: inteiro
+   crescente, decrescente, todosIguais, foraOrdem: booleano
+   crescente := V
+   decrescente := V
+   todosIguais := V
+   para i := 0 a 9
+      escrever "Digite um numero: "
+      ler numero
+      se i = 0
+         anterior := numero;
+      senão
+         se numero > anterior
+            todosIguais := F
+            decrescente := F
+         senão
+            se numero < anterior
+               todosIguais := F
+               crescente := F
+         anterior := numero
+   foraOrdem := não (crescente ou decrescente)
+   se foraOrdem
+      escrever "Fora de ordem"
+   senão 
+      se todosIguais
+         escrever "Todos iguais"
+      senão
+         se crescente
+            escrever "Numeros em ordem crescente"
+         senão 
+            escrever "Numeros em ordem decrescente"

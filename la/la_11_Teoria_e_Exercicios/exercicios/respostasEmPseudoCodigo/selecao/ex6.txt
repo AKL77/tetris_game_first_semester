@@ -1,0 +1,12 @@
+/* Ex6 */
+   a, b, soma: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   soma := a + b
+   se soma > 20
+      soma := soma + 8
+   senão 
+      soma := soma - 5
+   escrever "O valor de soma eh " + somaa

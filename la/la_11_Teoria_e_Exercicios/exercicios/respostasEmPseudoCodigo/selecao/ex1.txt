@@ -1,0 +1,6 @@
+/* Ex1 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i > 20
+      escrever "A metade eh" + (i / 2.0)

@@ -1,0 +1,34 @@
+   valor, maior, segundoMaior, aux: inteiro
+   primeiroLido, segundoLido: booleano
+   primeiroLido := false
+   segundoLido := false
+   faça
+      escrever "Digite um valor (zero para encerrar):"
+      ler valor
+      se valor != 0
+         se não primeiroLido
+            maior := valor
+            primeiroLido := V
+         senão
+            se não segundoLido
+               segundoLido := V
+               se valor > maior
+                  segundoMaior := maior
+                  maior := valor
+               senão
+                  segundoMaior := valor
+            senão
+               se valor > segundoMaior
+                  segundoMaior := valor
+                  se segundoMaior > maior
+                     aux := segundoMaior
+                     segundoMaior := maior
+                     maior := aux
+   enquanto valor != 0
+   se não primeiroLido
+      escrever "Nenhum numero foi lido"
+   senão
+      se não segundoLido
+         escrever "O maior numero eh " + maior + ". Nao foi lido um 2o numero"
+      senão
+         escrever "O maior numero eh " + maior + ". O 2o maior eh " + segundoMaior

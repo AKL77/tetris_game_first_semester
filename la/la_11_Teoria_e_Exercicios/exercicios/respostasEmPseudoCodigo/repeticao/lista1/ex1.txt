@@ -1,0 +1,5 @@
+   i, numero: inteiro
+   para i:= 1 a 10
+      escrever "Digite um numero: "
+      ler numero
+      escrever "O quadrado deste numero eh: " + (numero * numero)

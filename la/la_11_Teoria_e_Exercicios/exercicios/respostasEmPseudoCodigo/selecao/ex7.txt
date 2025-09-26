@@ -1,0 +1,8 @@
+/* Ex7 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i >= 0
+      escrever "Raiz de i:" + (i // 2)
+   senão 
+      escrever "Quadrado de i:" + (i ** 2)

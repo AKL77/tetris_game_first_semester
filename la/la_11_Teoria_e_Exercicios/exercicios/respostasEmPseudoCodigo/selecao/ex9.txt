@@ -1,0 +1,12 @@
+/* Ex9 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i % 10 = 0
+      escrever "I eh divisivel por 10, por 2 e por 5"
+   senão 
+      se i % 5 = 0
+         escrever "I eh divisivel por 5"
+      senão 
+         se i % 2 = 0
+            escrever "I eh divisivel por 2"

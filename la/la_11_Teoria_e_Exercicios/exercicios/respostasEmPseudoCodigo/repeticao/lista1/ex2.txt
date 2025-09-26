@@ -1,0 +1,5 @@
+   nrInteiros, i: inteiro
+   escrever "Informe o numero de inteiros a serem mostrados: "
+   ler nrInteiros
+   para i := 1 a nrInteiros
+      escrever "O " + i + "o numero inteiro eh:" + i

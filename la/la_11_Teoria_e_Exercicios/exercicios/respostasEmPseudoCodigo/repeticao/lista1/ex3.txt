@@ -1,0 +1,8 @@
+   i, j, nota, media: inteiro
+   para i := 1 a 20
+      media := 0
+      para j := 1 a 3
+         escrever "Informe a " + j + "a nota: "
+         ler nota       
+         media := media + nota
+      escrever "A media do "+ i + "o aluno eh " + (media / 3.0)

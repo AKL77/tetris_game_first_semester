@@ -1,0 +1,10 @@
+/* Algoritmo Ex5 */
+valor, percentual, meses, saldo: real
+escrever "Digite o valor de valor: "
+ler valor
+escrever "Digite o valor de percentual: "
+ler percentual
+escrever "Digite o valor de meses: "
+ler meses
+saldo := valor * (1.0 + percentual / 100.0) ** meses
+escrever "O valor de saldo eh " + saldo

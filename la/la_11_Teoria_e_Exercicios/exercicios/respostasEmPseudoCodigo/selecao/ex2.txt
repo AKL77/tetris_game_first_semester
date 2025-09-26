@@ -1,0 +1,8 @@
+/* Ex2 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i % 2 = 0
+      escrever "I eh um numero par = " + i
+   senão 
+      escrever "I eh um numero impar = " + i

@@ -1,0 +1,13 @@
+   i, numero, fatorial, n: inteiro
+   numero := 0
+   fatorial := 1
+   escrever "Informe um numero: "
+   ler n
+   se n != 0
+      enquanto fatorial <= n
+         fatorial := 1     
+         para i := 1 a numero
+            fatorial := fatorial * i
+         se fatorial <= n
+            numero := numero + 1
+   escrever "O menor numero cujo fatorial eh maior que " + n + "eh: " + numero

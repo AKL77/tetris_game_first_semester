@@ -1,0 +1,7 @@
+   nrInteiros, i, soma: inteiro;
+   soma := 0
+   escrever "Informe o numero de inteiros a serem mostrados: "
+   ler nrInteiros
+   para i := 1 a nrInteiros
+      soma := soma + i
+   escrever "A soma dos " + nrInteiros +" primeiros inteiros eh: " + soma

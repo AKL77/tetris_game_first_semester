@@ -1,0 +1,8 @@
+/* Ex3 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i > 0
+      escrever "O inverso de i eh = " + (1 / i)
+   senão 
+      escrever "O valor absoluto de i eh = " + (-1 * i)

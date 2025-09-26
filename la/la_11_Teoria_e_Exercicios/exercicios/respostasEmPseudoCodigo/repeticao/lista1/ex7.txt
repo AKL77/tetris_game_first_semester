@@ -1,0 +1,61 @@
+   numero, i, resto, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9: inteiro
+   c0 := 0
+   c1 := 0
+   c2 := 0
+   c3 := 0
+   c4 := 0
+   c5 := 0
+   c6 := 0
+   c7 := 0
+   c8 := 0
+   c9 := 0
+   escrever "Digite o numero cujos algarismos serao ordenados:"
+   ler numero
+   se numero < 0
+      escrever "O numero deve ser positivo"
+   senão
+      enquanto numero > 0         
+         resto := numero % 10
+         numero := numero / 10
+         caso resto
+            0: 
+               c0 := c0 + 1       
+            1: 
+               c1 := c1 + 1       
+            2: 
+               c2 := c2 + 1       
+            3: 
+               c3 := c3 + 1       
+            4: 
+               c4 := c4 + 1       
+            5: 
+               c5 := c5 + 1       
+            6: 
+               c6 := c6 + 1       
+            7: 
+               c7 := c7 + 1       
+            8: 
+               c8 := c8 + 1       
+            9: 
+               c9 := c9 + 1       
+      escrever "O numero ordenado eh: "
+      para i := 0 a c0 - 1
+         escrever "0"
+      para i := 0 a c1 - 1
+         escrever "1"
+      para i := 0 a c2 - 1
+         escrever "2"
+      para i := 0 a c3 - 1
+         escrever "3"
+      para i := 0 a c4 - 1
+         escrever "4"
+      para i := 0 a c5 - 1
+         escrever "5"
+      para i := 0 a c6 - 1
+         escrever "6"
+      para i := 0 a c7 - 1
+         escrever "7"
+      para i := 0 a c8 - 1
+         escrever "8"
+      para i := 0 a c9 - 1
+         escrever "9"

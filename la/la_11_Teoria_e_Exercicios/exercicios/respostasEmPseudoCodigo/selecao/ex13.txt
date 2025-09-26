@@ -1,0 +1,24 @@
+/* Ex13 */
+   a, b, c: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   escrever "Digite o valor de c: "
+   ler c
+   se a <= b e a <= c
+      se b <= c
+         escrever "A ordem eh a, b e c: " + a + b + c
+      senão 
+         escrever "A ordem eh a, c e b: " + a + c + b
+   senão 
+      se b <= a e b <= c
+         se a <= c
+            escrever "A ordem eh b, a e c: " + b + a + c
+         senão 
+            escrever "A ordem eh b, c e a: " + b + c + a
+      senão 
+         se a <= b
+            escrever "A ordem eh c, a e b: " + c + a + b
+         senão 
+            escrever "A ordem eh c, b e a: " + c + b + a

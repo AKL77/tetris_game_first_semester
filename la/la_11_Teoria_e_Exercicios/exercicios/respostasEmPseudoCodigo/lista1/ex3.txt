@@ -1,0 +1,5 @@
+/* Algoritmo Ex3 */
+a: caractere
+escrever "Digite o valor de a: "
+ler a
+escrever "O valor de a eh " + a

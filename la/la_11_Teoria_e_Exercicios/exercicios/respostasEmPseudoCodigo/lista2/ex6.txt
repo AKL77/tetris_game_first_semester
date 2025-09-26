@@ -1,0 +1,18 @@
+/* Algoritmo Ex6 */
+a, b, c, maiorAB, maiorABC: inteiro
+escrever "Digite o valor de a: "
+ler a
+escrever "Digite o valor de b: "
+ler b
+escrever "Digite o valor de c: "
+ler c
+maiorAB := ((a + b) + abs(a - b)) / 2
+maiorABC := ((maiorAB + c) + abs(maiorAB - c)) / 2
+escrever "O valor de maiorABC eh " + maiorABC
+d, menorAB, menorABC, menorABCD: inteiro
+escrever "Digite o valor de d: "
+ler d
+menorAB := ((a + b) - abs(a - b)) / 2
+menorABC := ((menorAB + c) - abs(menorAB - c)) / 2
+menorABCD := ((menorABC + d) - abs(menorABC - d)) / 2
+escrever "O valor de menorABCD eh " + menorABCD

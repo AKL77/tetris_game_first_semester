@@ -1,0 +1,11 @@
+/* Ex4 */
+   i: inteiro
+   escrever "Digite o valor de i: "
+   ler i
+   se i = 0
+      escrever "I eh nulo"
+   senão 
+      se i > 0
+         escrever "I eh positivo"
+      senão 
+         escrever "I eh negativo"

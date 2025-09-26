@@ -1,0 +1,12 @@
+/* Algoritmo Ex4 */
+x1, x2, y1, y2, distancia: real
+escrever "Digite o valor de x1: "
+ler x1
+escrever "Digite o valor de x2: "
+ler x2
+escrever "Digite o valor de y1: "
+ler y1
+escrever "Digite o valor de y2: "
+ler y2
+distancia := ((x2 - x1) ** 2 + (y2 - y1) ** 2) // 2
+escrever "O valor de distancia eh " + distancia

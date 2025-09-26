@@ -1,0 +1,17 @@
+   i, valor, soma, multiplicacao, maior, menor: inteiro
+   soma := 0
+   multiplicacao := 1
+   para i := 1 a 40
+      escrever "Digite o " + i + " o valor: "
+      ler valor
+      se i = 1 ou valor > maior
+         maior := valor
+      se i = 1 ou valor < menor
+         menor := valor
+      soma := soma + valor
+      multiplicacao := multiplicacao * valor
+   escrever "A soma eh: " + soma
+   escrever "A multiplicacao eh: " + multiplicacao
+   escrever "O maior eh: " + maior
+   escrever "O menor eh: " + menor
+   escrever "A media eh: " + soma / 40.0

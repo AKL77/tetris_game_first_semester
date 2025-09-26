@@ -1,0 +1,9 @@
+/* Ex5 */
+   a, b, soma: inteiro
+   escrever "Digite o valor de a: "
+   ler a
+   escrever "Digite o valor de b: "
+   ler b
+   soma := a + b
+   se soma > 10
+      escrever "Soma maior que 10"
